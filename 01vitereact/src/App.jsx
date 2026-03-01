@@ -2,11 +2,12 @@
 import Samurai from "./Samurai"
 
 function App() {
+  const username = "Hassan"
   return (
     <>
       <h1>Samurai</h1>
       <Samurai />
-      <p>He is the best samurai</p>
+      <p>{username} is the best samurai</p>
     </>
   )
 }
