@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
 
   // let counter = 5;
-  let [counter, setCounter] = useState(5)
+  let [counter, setCounter] = useState(5) // useState() is a hook
 
   function addValue() {
     if (counter < 20) {
