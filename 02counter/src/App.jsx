@@ -10,15 +10,16 @@ function App() {
 
   function addValue() {
     if (counter < 20) {
-      setCounter(++counter)
-      console.log("clicked", counter);
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
     }
   }
 
   function decreaseValue() {
     if (counter > 0) {
       setCounter(--counter)
-      console.log("clicked", counter);
     }  
   }
 
