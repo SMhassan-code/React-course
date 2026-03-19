@@ -44,11 +44,13 @@ function App() {
             Manage Your Todos
           </h1>
           <div className="mb-4">
+            {/* Todo form goes here */}
             <TodoForm />
             </div>
           <div className="flex flex-wrap gap-y-3">
             {todos.map((todo) => (
               <div key={todo.id} className="w-full">
+                {/*Loop and Add TodoItem here */}
                 <TodoItem todo={todo} />
               </div>
             ))}
